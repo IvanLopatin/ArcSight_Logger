@@ -1,0 +1,44 @@
+############################################
+IF your ArcSight Logger install to root user
+############################################
+1. /opt/arcsight/current/arcsight/logger/bin/loggerd stop all
+2. /opt/arcsight/current/arcsight/logger/bin/loggerd quit
+
+You need check your version Logger and user this number to next steps
+3. cat /opt/arcsight/previous_version.txt 
+My version - "L8117"
+
+[!!] You must follow commands, one by one
+cp -rp /opt/arcsight/L8117/ /home/backup/L8117
+cp -rp /opt/arcsight/current/ /home/backup/current
+rm -rf /opt/arcsight/current/
+cp -rp /opt/arcsight/L8117/ /opt/arcsight/current/
+rm -rf /opt/arcsight/L8117/
+
+[!!] This scripts do correct permissions to all Logger directories 
+/opt/arcsight/current/arcsight/logger/bin/scripts/logger_fix_perms_sw.sh /opt/arcsight
+/opt/arcsight/current/arcsight/logger/bin/loggerd start all
+watch /opt/arcsight/current/arcsight/logger/bin/loggerd status
+
+
+############################################
+IF your ArcSight Logger install to non-root user
+############################################
+su - arcsight
+
+1. /opt/arcsight/current/arcsight/logger/bin/loggerd stop all
+2. /opt/arcsight/current/arcsight/logger/bin/loggerd quit
+
+You need check your version Logger and user this number to next steps
+3. cat /opt/arcsight/previous_version.txt 
+My version - "L8117"
+
+[!!] You must follow commands, one by one
+cp -rp /opt/arcsight/L8117/ /home/backup/L8117
+cp -rp /opt/arcsight/current/ /home/backup/current
+rm -rf /opt/arcsight/current/
+cp -rp /opt/arcsight/L8117/ /opt/arcsight/current/
+rm -rf /opt/arcsight/L8117/
+
+/opt/arcsight/current/arcsight/logger/bin/loggerd start all
+watch /opt/arcsight/current/arcsight/logger/bin/loggerd status
