@@ -7,3 +7,7 @@
 
 ---
 
+2. Исправление прав доступа на директории ArcSight Logger при установке от пользователя arcsight
+> ONLY non-root installation Logger
+> Check and replace not correct permissions to ArcSight Logger directories. 
+ [Repear permissions](https://github.com/IvanLopatin/ArcSight_Logger/blob/master/check_permissions")
