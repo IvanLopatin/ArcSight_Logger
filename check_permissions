@@ -1,0 +1,186 @@
+14:34:27	cp	-r	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config_L8214	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config
+14:34:37	rm	 -rf	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config_L8214	
+14:34:57	cp	-r	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang_L8214	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang
+14:36:15	cp	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang/lang_L8214/*	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang	
+14:47:49	rm	 -rf	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang/lang_L8214	
+14:37:22	cp	-r	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config/config_L8214/*	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config
+14:37:53	rm	 -rf	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang_L8214/	
+14:39:27	chmod	755	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config/graph	
+14:39:32	chmod	755	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config/ipackager/	
+14:40:05	chmod	755	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config/Logger/	
+14:40:13	chmod	755	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config/map	
+14:40:15	chmod	755	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config/maps/	
+14:41:19	chmod	644	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config/adhoc.properties	
+14:41:29	chmod	644	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config/HomePage.xml	
+14:41:38	chmod	644	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config/HtmlToolBar.properties	
+14:41:50	chmod	644	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config/Portal.xml	
+14:42:10	chmod	644	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config/PortalUseCases.xml	
+14:42:33	chmod	644	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config/ReportClient.properties	
+14:42:40	chmod	644	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config/ReportClientConfiguration.xml	
+14:44:32	chown	644	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config/graph/GraphEntityTypes.xml	
+14:44:45	chown	644	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config/ipackager/ipackager.txt	
+14:44:59	chown	644	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config/Logger/helptopic.json	
+14:45:20	chown	644	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config/maps/MapLevels.xml	
+14:47:35	chmod	644	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang/*	
+14:49:13	chmod	2755	/opt/arcsight/userdata/platform/crl	
+14:49:49	chmod	644	/opt/arcsight/userdata/platform/esm_proxy.conf	
+14:49:57	chmod	644	/opt/arcsight/userdata/platform/fips.conf	
+14:50:21	chmod	775	/opt/arcsight/userdata/platform/smtp_certs/	
+14:50:42	chmod	755	/opt/arcsight/userdata/platform/ssl.crt/	
+14:51:14	chmod	664	/opt/arcsight/userdata/platform/smtp_certs/updateFile	
+14:51:49	chmod	644	/opt/arcsight/userdata/platform/ssl.crt/*	
+14:56:36	chmod	775	/opt/arcsight/data/indexes/	
+14:56:51	chmod	775	/opt/arcsight/data/logger/	
+14:56:56	chmod	775	/opt/arcsight/data/mysql/	
+14:58:17	chmod	644	/opt/arcsight/data/indexes/*	
+14:59:06	chmod	664	/opt/arcsight/data/logger/*	
+14:59:42	chmod	775	/opt/arcsight/data/logger/SQL	
+15:04:17	chmod	644	/opt/arcsight/data/pgsql/dbinit.log	
+15:04:34	chmod	644	/opt/arcsight/data/pgsql/init.store.log	
+15:05:02	chmod	664	/opt/arcsight/data/pgsql/pg_hba.conf	
+15:05:09	chmod	664	/opt/arcsight/data/pgsql/init.store.log	
+15:05:18	chmod	664	/opt/arcsight/data/pgsql/dbinit.log	
+15:05:31	chmod	664	/opt/arcsight/data/pgsql/postgresql.conf	
+15:19:30	chmod	775	/opt/arcsight/current/local/*	
+15:20:07	chmod	775	/opt/arcsight/current/local/apache/*	
+15:20:15	chmod	755	/opt/arcsight/current/local/apache/bin/	
+15:24:44	chmod	755	/opt/arcsight/current/local/apache/bin/*	
+15:25:33	chmod	775	/opt/arcsight/current/local/apache/modules/*	
+15:26:19	chmod	664	/opt/arcsight/current/local/apache/logs/*	
+15:27:00	chmod	775	-R	/opt/arcsight/current/local/apache/lib/*
+15:27:41	chmod	775	/opt/arcsight/current/local/apache/htdocs/index.html	
+15:28:14	chmod	775	-R	/opt/arcsight/current/local/apache/error/*
+15:28:57	chmod	775	-R	/opt/arcsight/current/local/apache/conf/*
+15:29:28	chmod	664	/opt/arcsight/current/local/apache/conf/httpd.conf	
+15:30:55	chmod	775	/opt/arcsight/current/local/apache/build/*	
+15:32:01	chmod	775	/opt/arcsight/current/local/jre/*	
+15:32:17	chmod	755	/opt/arcsight/current/local/jre/bin/	
+15:32:57	chmod	775	-R	/opt/arcsight/current/local/jre/lib/*
+15:33:30	chmod	755	/opt/arcsight/current/local/jre/bin/*	
+15:33:56	chmod	775	/opt/arcsight/current/local/lib/*	
+15:34:09	chmod	775	/opt/arcsight/current/local/monit/	
+15:34:38	chmod	700	/opt/arcsight/current/local/monit/watchdog	
+15:34:59	chmod	755	/opt/arcsight/current/local/monit/bin	
+15:35:28	chmod	755	/opt/arcsight/current/local/monit/bin/monit	
+15:36:41	chmod	600	/opt/arcsight/current/local/monit/watchdog/apache.monitrc	
+15:37:48	chown	arcsight:arcsight	/opt/arcsight/current/local/monit/watchdog/*	
+15:44:26	chmod	775	/opt/arcsight/current/local/mysql/*	
+15:44:35	chmod	755	/opt/arcsight/current/local/mysql/bin/	
+15:45:14	chmod	755	/opt/arcsight/current/local/mysql/bin/*	
+15:46:11	chmod	775	/opt/arcsight/current/local/mysql/share/aclocal/mysql.m4	
+15:46:45	chmod	775	/opt/arcsight/current/local/mysql/share/mysql/*	
+15:46:56	chmod	775	-R	/opt/arcsight/current/local/mysql/share/mysql/*
+15:48:29	chmod	775	/opt/arcsight/current/local/mysql/libexec/*	
+15:49:12	chmod	775	/opt/arcsight/current/local/mysql/lib/mysql/*	
+15:49:25	chmod	775	/opt/arcsight/current/local/mysql/lib/mysql/plugin/*	
+15:49:54	chmod	775	/opt/arcsight/current/local/nss/lib/*	
+15:50:21	chmod	755	/opt/arcsight/current/local/nss/bin/*	
+15:51:54	chmod	775	/opt/arcsight/current/local/openssl/*	
+15:52:06	chmod	755	/opt/arcsight/current/local/openssl/bin/	
+15:52:58	chmod	755	/opt/arcsight/current/local/openssl/bin/*	
+15:53:24	chmod	775	/opt/arcsight/current/local/openssl/ssl/*	
+15:53:48	chmod	775	/opt/arcsight/current/local/openssl/misc/*	
+15:54:12	chmod	775	-R	/opt/arcsight/current/local/openssl/lib/*
+15:55:33	chmod	775	/opt/arcsight/current/local/openssl/include	
+15:55:49	chmod	775	-R	/opt/arcsight/current/local/openssl/include/*
+15:56:33	chmod	775	/opt/arcsight/current/local/pcre/*	
+15:56:41	chmod	755	/opt/arcsight/current/local/pcre/bin/	
+15:57:01	chmod	775	-R	/opt/arcsight/current/local/pcre/lib/*
+15:57:35	chmod	775	-R	/opt/arcsight/current/local/pcre/share/*
+15:58:08	chmod	755	/opt/arcsight/current/local/pcre/bin/	
+15:58:11	chmod	755	/opt/arcsight/current/local/pcre/bin/*	
+15:59:02	chmod	775	/opt/arcsight/current/local/pgsql/*	
+15:59:13	chmod	755	/opt/arcsight/current/local/pgsql/bin/	
+15:59:15	chmod	755	/opt/arcsight/current/local/pgsql/bin/*	
+16:00:20	chmod	775	-R	/opt/arcsight/current/local/pgsql/share/*
+16:01:05	chmod	644	/opt/arcsight/current/local/pgsql/share/timezone/*	
+16:03:14	chmod	644	/opt/arcsight/current/local/pgsql/share/timezone/Chile/*	
+16:03:26	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Chile/	
+16:03:35	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Africa/	
+16:03:46	chmod	644	/opt/arcsight/current/local/pgsql/share/timezone/Africa/*	
+16:04:16	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/America/	
+16:05:17	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Antarctica/	
+16:05:25	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Arctic/*	
+16:05:28	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Arctic/	
+16:05:46	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Asia/	
+16:05:51	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Atlantic/	
+16:06:00	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Australia/	
+16:06:03	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Australia/*	
+16:06:11	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Brazil/	
+16:06:14	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Brazil/*	
+16:06:21	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Canada/	
+16:06:23	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Canada/*	
+16:06:34	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Chile/	
+16:06:36	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Chile/*	
+16:06:43	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Etc/	
+16:06:51	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Etc/*	
+16:06:58	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Europe/	
+16:07:00	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Europe/*	
+16:07:07	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Indian/	
+16:07:09	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Indian/*	
+16:07:15	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Mexico/	
+16:07:18	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Mexico/*	
+16:07:27	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Pacific/	
+16:07:29	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/Pacific/*	
+16:07:41	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/posix	
+16:07:56	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/posix/*	
+16:08:05	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/right/	
+16:08:07	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/right/*	
+16:08:11	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/US	
+16:08:14	chmod	755	/opt/arcsight/current/local/pgsql/share/timezone/US/*	
+16:08:42	chmod	775	/opt/arcsight/current/local/pgsql/postgresinit/*	
+16:09:09	chmod	776	/opt/arcsight/current/local/pgsql/lib/*	
+16:09:26	chmod	775	-R	/opt/arcsight/current/local/pgsql/lib/*
+16:10:04	chmod	775	/opt/arcsight/current/local/pgsql/include/*	
+16:10:48	chmod	775	-R	/opt/arcsight/current/local/pgsql/include/server/
+16:11:42	chmod	775	/opt/arcsight/current/local/pgsql/include/libpq	
+16:11:45	chmod	775	/opt/arcsight/current/local/pgsql/include/libpq/libpq-fs.h	
+16:12:13	chmod	775	-R	/opt/arcsight/current/local/pgsql/include/internal/
+16:12:47	chmod	775	-R	/opt/arcsight/current/local/pgsql/include/informix/
+16:14:02	chmod	775	/opt/arcsight/current/local/sysstat/*	
+16:14:37	chown	775	/opt/arcsight/current/local/tomcat/*	
+16:15:03	chown	755	/opt/arcsight/current/local/tomcat/bin/	
+16:15:10	chown	755	/opt/arcsight/current/local/tomcat/bin/*	
+16:16:16	chmod	775	/opt/arcsight/current/local/tomcat/conf/*	
+16:17:33	chmod	664	/opt/arcsight/current/local/tomcat/conf/server.xml	
+16:17:53	chmod	775	-R	/opt/arcsight/current/local/tomcat/conf/Catalina/
+16:17:59	chmod	775	-R	/opt/arcsight/current/local/tomcat/conf/arcsight/
+16:19:01	chmod	775	/opt/arcsight/current/local/tomcat/jarball/originals/*	
+16:19:08	chmod	775	/opt/arcsight/current/local/tomcat/jarball/originals	
+16:19:17	chmod	775	/opt/arcsight/current/local/tomcat/jarball/jars	
+16:19:29	chmod	775	/opt/arcsight/current/local/tomcat/jarball/unpack.sh	
+16:20:21	chmod	664	/opt/arcsight/current/local/tomcat/jarball/jars/*	
+16:20:35	chmod	775	/opt/arcsight/current/local/tomcat/jarball/jars/arcsight-fipsproviders-1.2.0.release.2.bf8e434d.jar	
+16:20:43	chmod	775	/opt/arcsight/current/local/tomcat/jarball/jars/org.bouncycastle-bc-fips-1.0.0.68108f60.jar	
+16:21:24	chmod	664	/opt/arcsight/current/local/tomcat/lib/*	
+16:21:42	chmod	775	/opt/arcsight/current/local/tomcat/lib/arcsight-fipsproviders-1.2.0.release.2.jar	
+16:22:04	chmod	775	/opt/arcsight/current/local/tomcat/lib/cryptojc*	
+16:22:12	chmod	775	/opt/arcsight/current/local/tomcat/lib/jcmFIPS-6.2.jar	
+16:22:20	chmod	775	/opt/arcsight/current/local/tomcat/lib/org.bouncycastle-bc-fips-1.0.0.jar	
+16:22:59	chmod	775	-R	/opt/arcsight/current/local/tomcat/webapps
+16:24:40	chmod	775	-R	/opt/arcsight/current/local/tomcat/work/
+16:25:59	chmod	664	/opt/arcsight/current/local/tomcat/work/Catalina/localhost/logger/org/apache/jsp/report/LoggerReports_jsp.*	
+16:26:34	chmod	664	/opt/arcsight/current/local/tomcat/work/Catalina/localhost/logger/org/apache/jsp/report/personalization/*	
+16:26:47	chmod	664	/opt/arcsight/current/local/tomcat/work/Catalina/localhost/logger/org/apache/jsp/report/core/*	
+16:26:56	chmod	664	/opt/arcsight/current/local/tomcat/work/Catalina/localhost/logger/org/apache/jsp/report/common/*	
+16:27:33	chmod	755	/opt/arcsight/current/local/tomcat/bin/*	
+16:28:06	chmod	644	/opt/arcsight/current/local/tomcat/bin/bootstrap.jar	
+16:28:14	chmod	644	/opt/arcsight/current/local/tomcat/bin/commons-daemon.jar	
+16:28:23	chmod	644	/opt/arcsight/current/local/tomcat/bin/tomcat-juli.jar	
+16:29:13	chmod	775	/opt/arcsight/current/local/tomcat/*	
+16:29:27	chmod	755	/opt/arcsight/current/local/tomcat/bin	
+16:29:46	chmod	777	/opt/arcsight/current/local/tomcat/logs/	
+16:29:58	chmod	777	/opt/arcsight/current/local/tomcat/temp	
+16:31:24	chmod	600	/opt/arcsight/current/runtime/monit.id	
+16:31:41	chmod	644	/opt/arcsight/current/runtime/monit.pid	
+16:32:01	chmod	644	/opt/arcsight/current/runtime/monit.state	
+16:34:58	chmod	600	/tmp/watchdog/apache.monitrc	
+16:35:09	chmod	600	/tmp/watchdog/aps.monitrc	
+16:35:35	chmod	600	/tmp/watchdog/monitrc	
+16:35:42	chmod	600	/tmp/watchdog/mysql.monitrc	
+16:35:53	chmod	600	/tmp/watchdog/postgresql.monitrc	
+16:36:34	chmod	644	/tmp/watchdog/arcmcagent.monitrc	
+16:36:39	chmod	644	/tmp/watchdog/connector.monitrc	
+16:36:45	chmod	644	/tmp/watchdog/logger.monitrc	
+16:37:06	chmod	644	/tmp/watchdog/logrotate.monitrc	
+16:37:29	chmod	700	/tmp/watchdog/logger.monitrc
