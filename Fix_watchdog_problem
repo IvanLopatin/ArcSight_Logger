@@ -1,0 +1,35 @@
+# IF you have a problem with replace permissions to watchdog (/opt/arcsight/current/local/monit/watchdog/) 
+
+
+Backup your watchdog
+#cp	-r	/opt/arcsight/current/local/monit/watchdog	/home/backup/
+
+
+Copy correct watchdog directory to /tmp/ (if you not have a correct watchdoc write to me mail itlopatinIvan@gmail.com , i send you)
+
+Change permissions to file watchdog to /tmp
+# chmod	600	/tmp/watchdog/apache.monitrc	
+#	chmod	600	/tmp/watchdog/aps.monitrc	
+#	chmod	600	/tmp/watchdog/monitrc	
+#	chmod	600	/tmp/watchdog/mysql.monitrc	
+#	chmod	600	/tmp/watchdog/postgresql.monitrc	
+#	chmod	644	/tmp/watchdog/arcmcagent.monitrc	
+#	chmod	644	/tmp/watchdog/connector.monitrc	
+#	chmod	644	/tmp/watchdog/logger.monitrc	
+#	chmod	644	/tmp/watchdog/logrotate.monitrc	
+#	chmod	700	/tmp/watchdog/logger.monitrc
+
+Delete watchdog is  problem because directoris and files have a strong permissions
+
+IF "rm	 -rf	/opt/arcsight/current/local/monit/watchdog/*" please to next step instructions
+
+  
+#	chmod	ugo+w	/opt/arcsight/current/local/monit/watchdog/apache.monitrc	
+#	chattr	 -i	 -a	/opt/arcsight/current/local/monit/watchdog/apache.monitrc
+#	chmod	ugo+w	/opt/arcsight/current/local/monit/watchdog/apache.monitrc	
+#	chattr	 -i	 -a	/opt/arcsight/current/local/monit/watchdog/*
+#	chmod	ugo+w	/opt/arcsight/current/local/monit/watchdog/*	
+#	rm	 -rf	/opt/arcsight/current/local/monit/watchdog/*	
+#	cp	/tmp/watchdog/*	/opt/arcsight/current/local/monit/watchdog
+
+Start Logger services
