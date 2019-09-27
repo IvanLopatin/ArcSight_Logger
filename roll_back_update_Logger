@@ -1,6 +1,8 @@
 ############################################
 IF your ArcSight Logger install to root user
 ############################################
+
+
 1. /opt/arcsight/current/arcsight/logger/bin/loggerd stop all
 2. /opt/arcsight/current/arcsight/logger/bin/loggerd quit
 
@@ -22,10 +24,13 @@ rm -rf /opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang_L8214/
 cp /opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang/lang_L8214/*	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang	
 rm -rf /opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang/lang_L8214	
 
+
 [!!] This scripts do correct permissions to all Logger directories 
 /opt/arcsight/current/arcsight/logger/bin/scripts/logger_fix_perms_sw.sh /opt/arcsight
+
+
 /opt/arcsight/current/arcsight/logger/bin/loggerd start all
-watch /opt/arcsight/current/arcsight/logger/bin/loggerd status
+/opt/arcsight/current/arcsight/logger/bin/loggerd status
 
 
 ############################################
@@ -55,4 +60,4 @@ cp	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang/lang_L8214/*	
 rm	 -rf	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang/lang_L8214	
 
 /opt/arcsight/current/arcsight/logger/bin/loggerd start all
-watch /opt/arcsight/current/arcsight/logger/bin/loggerd status
+/opt/arcsight/current/arcsight/logger/bin/loggerd status
