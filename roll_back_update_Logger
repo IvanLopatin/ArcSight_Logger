@@ -6,14 +6,14 @@ IF your ArcSight Logger install to root user
 
 You need check your version Logger and user this number to next steps
 3. cat /opt/arcsight/previous_version.txt 
-My version - "L8117"
+My version - "L8214"
 
 [!!] You must follow commands, one by one
-cp -rp /opt/arcsight/L8117/ /home/backup/L8117
+cp -rp /opt/arcsight/L8214/ /home/backup/L8214
 cp -rp /opt/arcsight/current/ /home/backup/current
 rm -rf /opt/arcsight/current/
-cp -rp /opt/arcsight/L8117/ /opt/arcsight/current/
-rm -rf /opt/arcsight/L8117/
+cp -rp /opt/arcsight/L8214/ /opt/arcsight/current/
+rm -rf /opt/arcsight/L8214/
 
 cp -r /opt/arcsight/userdata/tomcat/webapps/logger/report/client/config_L8214	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config
 rm -rf /opt/arcsight/userdata/tomcat/webapps/logger/report/client/config_L8214	
@@ -38,14 +38,14 @@ su - arcsight
 
 You need check your version Logger and user this number to next steps
 3. cat /opt/arcsight/previous_version.txt 
-My version - "L8117"
+My version - "L8214"
 
 [!!] You must follow commands, one by one
-cp -rp /opt/arcsight/L8117/ /home/backup/L8117
+cp -rp /opt/arcsight/L8214/ /home/backup/L8214
 cp -rp /opt/arcsight/current/ /home/backup/current
 rm -rf /opt/arcsight/current/
-cp -rp /opt/arcsight/L8117/ /opt/arcsight/current/
-rm -rf /opt/arcsight/L8117/
+cp -rp /opt/arcsight/L8214/ /opt/arcsight/current/
+rm -rf /opt/arcsight/L8214/
 
 cp	-r	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config_L8214	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config
 rm	 -rf	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config_L8214	
