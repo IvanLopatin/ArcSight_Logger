@@ -15,6 +15,13 @@ rm -rf /opt/arcsight/current/
 cp -rp /opt/arcsight/L8117/ /opt/arcsight/current/
 rm -rf /opt/arcsight/L8117/
 
+cp	-r	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config_L8214	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config
+rm	 -rf	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config_L8214	
+cp	-r	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang_L8214	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang
+rm	 -rf	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang_L8214/	
+cp	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang/lang_L8214/*	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang	
+rm	 -rf	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang/lang_L8214	
+
 [!!] This scripts do correct permissions to all Logger directories 
 /opt/arcsight/current/arcsight/logger/bin/scripts/logger_fix_perms_sw.sh /opt/arcsight
 /opt/arcsight/current/arcsight/logger/bin/loggerd start all
@@ -39,6 +46,13 @@ cp -rp /opt/arcsight/current/ /home/backup/current
 rm -rf /opt/arcsight/current/
 cp -rp /opt/arcsight/L8117/ /opt/arcsight/current/
 rm -rf /opt/arcsight/L8117/
+
+cp	-r	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config_L8214	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config
+rm	 -rf	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/config_L8214	
+cp	-r	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang_L8214	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang
+rm	 -rf	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang_L8214/	
+cp	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang/lang_L8214/*	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang	
+rm	 -rf	/opt/arcsight/userdata/tomcat/webapps/logger/report/client/lang/lang_L8214	
 
 /opt/arcsight/current/arcsight/logger/bin/loggerd start all
 watch /opt/arcsight/current/arcsight/logger/bin/loggerd status
