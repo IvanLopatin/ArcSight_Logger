@@ -25,4 +25,4 @@
  4. Исправление потери лицензии ArcSight Logger через ArcMC
  > If Logger lose license control with ArcMC.Need clean all information to Logger about license
 
- [Repaer lose Logger license control](https://github.com/IvanLopatin/ArcSight_Logger/blob/master/Clean_License_information "clean information about license")
+ [Repear lose Logger license control](https://github.com/IvanLopatin/ArcSight_Logger/blob/master/Clean_License_information "clean information about license")
