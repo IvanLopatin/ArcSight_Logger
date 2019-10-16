@@ -1,0 +1,20 @@
+#If Logger lose license control with ArcMC
+
+#Need clean all information to Logger about license
+
+#Stop Logger
+/opt/arcsight/current/arcsight/logger/bin/loggerd stop all
+
+#go to Path directory
+cd $logger/userdata/autopass/data
+
+#Delete information about license:
+rm -rf LicFile.txt
+rm -rf ProductBuffer.xml
+rm -rf ProductConfigurations.xml
+
+#Start Logger
+/opt/arcsight/current/arcsight/logger/bin/loggerd start
+
+#Upload license again via ArcMC
+
